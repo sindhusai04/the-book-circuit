@@ -9,6 +9,13 @@ function toggleCart(el){
     el.classList.toggle('added');
 }
 
+document.querySelectorAll('.acc-btn, .wishlist-btn, .cart-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        alert('This is a demo feature!');
+    });
+});
+
+
 document.getElementById("subscribeForm").addEventListener("submit", function (e) {
   e.preventDefault(); 
   alert("Thanks for subscribing!");

@@ -10,7 +10,7 @@ function toggleCart(el){
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.acc-btn, .wishlist-btn, .cart-btn').forEach(button => {
+    document.querySelectorAll('.acc-btn, .wishlist-btn, .cart-btn, .buy-btn').forEach(button => {
         button.addEventListener('click', (e) => {
             e.preventDefault(); 
             alert('This is a demo feature!');
